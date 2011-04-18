@@ -386,12 +386,12 @@
 	
 	for (UIView *view in [self targetViews]) {
 		UITouch *touch = [[UITouch alloc] initInView:view];
-		UIEvent *eventDown = [[NSClassFromString(@"UITouchesEvent") alloc] initWithTouch:touch];
+		UIEvent *eventDown = [[[NSClassFromString(@"UITouchesEvent") alloc] initWithTouch:touch] retain];
 		NSSet *touches = [[NSMutableSet alloc] initWithObjects:&touch count:1];
 		
 		[touch.view touchesBegan:touches withEvent:eventDown];
 		
-		UIEvent *eventUp = [[NSClassFromString(@"UITouchesEvent") alloc] initWithTouch:touch];
+		UIEvent *eventUp = [[[NSClassFromString(@"UITouchesEvent") alloc] initWithTouch:touch] retain];
 		[touch setPhase:UITouchPhaseEnded];
 		
 		[touch.view touchesEnded:touches withEvent:eventDown];
