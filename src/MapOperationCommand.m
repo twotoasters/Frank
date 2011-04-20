@@ -12,6 +12,10 @@
 #import "JSON.h"
 #import "Operation.h"
 
+@interface UIQuery (Private)
++ (UIQuery*)withViews:(NSArray*)views className:(NSString*)className;
+@end
+
 @implementation MapOperationCommand
 
 - (NSString *)generateErrorResponseWithReason:(NSString *)reason andDetails:(NSString *)details{

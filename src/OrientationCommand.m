@@ -7,7 +7,7 @@
 //
 
 #import "OrientationCommand.h"
-
+#import "JSON.h"
 
 @implementation OrientationCommand
 

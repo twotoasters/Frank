@@ -11,7 +11,8 @@
 **/
 - (id)init
 {
-	if(self = [super init])
+    self = [super init];
+	if(self)
 	{
 		// Initialize underlying asynchronous tcp/ip socket
 		asyncSocket = [[AsyncSocket alloc] initWithDelegate:self];

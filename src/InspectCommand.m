@@ -55,7 +55,7 @@ NSDictionary *getCustomAttributesFor( UIView *view ) {
 		[subviewDescriptions addObject: [self describeView:subview ] ];
 	}
 	
-	NSMutableDictionary *description = [NSMutableDictionary dictionaryWithDictionary:[UIQuery describe:view]];
+	NSMutableDictionary *description = [NSMutableDictionary dictionaryWithDictionary:[UIQuery performSelector:@selector(describe) withObject:view]];
 		//description = filterNonAccessibleElementsFrom(description);
 	[description setObject:subviewDescriptions forKey:@"subviews"];
 	[description addEntriesFromDictionary:getCustomAttributesFor(view)];
@@ -65,7 +65,7 @@ NSDictionary *getCustomAttributesFor( UIView *view ) {
 
 - (NSString *)handleCommandWithRequestBody:(NSString *)requestBody {
 	[accessArray removeAllObjects];
-	NSDictionary *dom = [self describeView:[[UIApplication sharedApplication] keyWindow]];
+	[self describeView:[[UIApplication sharedApplication] keyWindow]];
 	return [accessArray JSONRepresentation];
 }
 

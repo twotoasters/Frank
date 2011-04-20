@@ -57,7 +57,7 @@ NSDictionary *describeView( UIView *view ) {
 		[subviewDescriptions addObject: describeView(subview) ];
 	}
 	
-	NSMutableDictionary *description = [NSMutableDictionary dictionaryWithDictionary:[UIQuery describe:view]];
+	NSMutableDictionary *description = [NSMutableDictionary dictionaryWithDictionary:[UIQuery performSelector:@selector(describe) withObject:view]];
 	description = filterNonprimitiveValuesFrom(description);
 	[description setObject:subviewDescriptions forKey:@"subviews"];
 	[description addEntriesFromDictionary:customAttributesFor(view)];

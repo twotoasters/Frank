@@ -54,9 +54,9 @@ static NSObject *ourObserver = nil;
 	if (0 == postContentLength)
 		return nil;
 
-	NSLog(@"processing post data: %i", postContentLength);
+	NSLog(@"processing post data: %i", (int) postContentLength);
 	NSString *contents = [[[NSString alloc] initWithData:(self.multipartData) encoding:NSUTF8StringEncoding] autorelease];
-	NSLog(contents);
+	NSLog(@"%@", contents);
 
 	NSObject *observer = [MyHTTPConnection sharedObserver];
 	if (!observer)
