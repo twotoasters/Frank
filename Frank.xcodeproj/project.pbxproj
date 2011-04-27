@@ -40,6 +40,8 @@
 		25633F7A135F494B0060C731 /* UIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992EA11AB2DDD00CE0FB0 /* UIProxy.m */; };
 		25633F7C135F494B0060C731 /* WaitUntilIdle.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992EC11AB2DDD00CE0FB0 /* WaitUntilIdle.m */; };
 		25633F7E135F49700060C731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25633F7D135F49700060C731 /* UIKit.framework */; };
+		25B5AC9813685F4400FA0407 /* AccessibilityCheckCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5AC9613685F4400FA0407 /* AccessibilityCheckCommand.h */; };
+		25B5AC9913685F4400FA0407 /* AccessibilityCheckCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5AC9713685F4400FA0407 /* AccessibilityCheckCommand.m */; };
 		4C1DD76012BADFA400E10B8C /* InspectCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD75E12BADFA400E10B8C /* InspectCommand.m */; };
 		4C1DD76112BADFA400E10B8C /* InspectCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1DD75F12BADFA400E10B8C /* InspectCommand.h */; };
 		4C1DD76C12BADFE100E10B8C /* OrientationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD76812BADFE100E10B8C /* OrientationCommand.m */; };
@@ -131,10 +133,22 @@
 		D6E7B48611B36D42005CAA34 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47911B36D42005CAA34 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		25B5AC8D13685E3100FA0407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25633EF9135F48670060C731;
+			remoteInfo = UISpec;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		25633EFA135F48670060C731 /* libUISpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		25633EFE135F48670060C731 /* UISpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpec-Prefix.pch"; sourceTree = "<group>"; };
 		25633F7D135F49700060C731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25B5AC9613685F4400FA0407 /* AccessibilityCheckCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessibilityCheckCommand.h; path = src/AccessibilityCheckCommand.h; sourceTree = "<group>"; };
+		25B5AC9713685F4400FA0407 /* AccessibilityCheckCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccessibilityCheckCommand.m; path = src/AccessibilityCheckCommand.m; sourceTree = "<group>"; };
 		4C1DD75E12BADFA400E10B8C /* InspectCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InspectCommand.m; path = src/InspectCommand.m; sourceTree = "<group>"; };
 		4C1DD75F12BADFA400E10B8C /* InspectCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InspectCommand.h; path = src/InspectCommand.h; sourceTree = "<group>"; };
 		4C1DD76812BADFE100E10B8C /* OrientationCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrientationCommand.m; path = src/OrientationCommand.m; sourceTree = "<group>"; };
@@ -321,6 +335,8 @@
 		08FB77AEFE84172EC02AAC07 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				25B5AC9613685F4400FA0407 /* AccessibilityCheckCommand.h */,
+				25B5AC9713685F4400FA0407 /* AccessibilityCheckCommand.m */,
 				4C1DD76812BADFE100E10B8C /* OrientationCommand.m */,
 				4C1DD76912BADFE100E10B8C /* OrientationCommand.h */,
 				4C1DD76A12BADFE100E10B8C /* AppCommand.m */,
@@ -606,6 +622,7 @@
 				4C1DD76112BADFA400E10B8C /* InspectCommand.h in Headers */,
 				4C1DD76D12BADFE100E10B8C /* OrientationCommand.h in Headers */,
 				4C1DD76F12BADFE100E10B8C /* AppCommand.h in Headers */,
+				25B5AC9813685F4400FA0407 /* AccessibilityCheckCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +658,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				25B5AC8E13685E3100FA0407 /* PBXTargetDependency */,
 			);
 			name = Frank;
 			productName = Frank;
@@ -752,10 +770,19 @@
 				4C1DD76012BADFA400E10B8C /* InspectCommand.m in Sources */,
 				4C1DD76C12BADFE100E10B8C /* OrientationCommand.m in Sources */,
 				4C1DD76E12BADFE100E10B8C /* AppCommand.m in Sources */,
+				25B5AC9913685F4400FA0407 /* AccessibilityCheckCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25B5AC8E13685E3100FA0407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25633EF9135F48670060C731 /* UISpec */;
+			targetProxy = 25B5AC8D13685E3100FA0407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -881,6 +908,7 @@
 				25633F01135F48670060C731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
