@@ -7,67 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25633EFB135F48670060C731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		25633F3F135F48E40060C731 /* libUISpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25633EFA135F48670060C731 /* libUISpec.a */; };
-		25633F41135F494B0060C731 /* UIQuerySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992AE11AB2DDD00CE0FB0 /* UIQuerySearchBar.m */; };
-		25633F43135F494B0060C731 /* UIQuerySegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992B011AB2DDD00CE0FB0 /* UIQuerySegmentedControl.m */; };
-		25633F45135F494B0060C731 /* UIQueryTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992B211AB2DDD00CE0FB0 /* UIQueryTabBar.m */; };
-		25633F47135F494B0060C731 /* UIQueryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992B411AB2DDD00CE0FB0 /* UIQueryTableView.m */; };
-		25633F49135F494B0060C731 /* UIQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992B611AB2DDD00CE0FB0 /* UIQueryTableViewCell.m */; };
-		25633F4B135F494B0060C731 /* UIQueryWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992B811AB2DDD00CE0FB0 /* UIQueryWebView.m */; };
-		25633F4D135F494B0060C731 /* Recordable.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992BB11AB2DDD00CE0FB0 /* Recordable.m */; };
-		25633F4F135F494B0060C731 /* UIChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992BD11AB2DDD00CE0FB0 /* UIChildren.m */; };
-		25633F51135F494B0060C731 /* UIConsoleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992BF11AB2DDD00CE0FB0 /* UIConsoleLog.m */; };
-		25633F53135F494B0060C731 /* UIDescendants.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992C111AB2DDD00CE0FB0 /* UIDescendants.m */; };
-		25633F55135F494B0060C731 /* UIExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992C311AB2DDD00CE0FB0 /* UIExpectation.m */; };
-		25633F57135F494B0060C731 /* UIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992C511AB2DDD00CE0FB0 /* UIFilter.m */; };
-		25633F5A135F494B0060C731 /* UIMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992C811AB2DDD00CE0FB0 /* UIMatcher.m */; };
-		25633F5C135F494B0060C731 /* UIParents.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992CA11AB2DDD00CE0FB0 /* UIParents.m */; };
-		25633F5E135F494B0060C731 /* UIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992CC11AB2DDD00CE0FB0 /* UIQuery.m */; };
-		25633F60135F494B0060C731 /* UIQueryAll.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992CE11AB2DDD00CE0FB0 /* UIQueryAll.m */; };
-		25633F62135F494B0060C731 /* UIQueryExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992D011AB2DDD00CE0FB0 /* UIQueryExpectation.m */; };
-		25633F64135F494B0060C731 /* UIRedoer.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992D211AB2DDD00CE0FB0 /* UIRedoer.m */; };
-		25633F66135F494B0060C731 /* UISwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992D411AB2DDD00CE0FB0 /* UISwizzle.m */; };
-		25633F68135F494B0060C731 /* UITraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992D611AB2DDD00CE0FB0 /* UITraversal.m */; };
-		25633F6A135F494B0060C731 /* ViewFilterSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992D811AB2DDD00CE0FB0 /* ViewFilterSwizzler.m */; };
-		25633F6C135F494B0060C731 /* UISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992DB11AB2DDD00CE0FB0 /* UISpec.m */; };
-		25633F6E135F494B0060C731 /* CallCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992DE11AB2DDD00CE0FB0 /* CallCache.m */; };
-		25633F70135F494B0060C731 /* NSNumberCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992E011AB2DDD00CE0FB0 /* NSNumberCreator.m */; };
-		25633F72135F494B0060C731 /* ReturnCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992E211AB2DDD00CE0FB0 /* ReturnCacher.m */; };
-		25633F74135F494B0060C731 /* UIBug.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992E411AB2DDD00CE0FB0 /* UIBug.m */; };
-		25633F76135F494B0060C731 /* UIConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992E611AB2DDD00CE0FB0 /* UIConsole.m */; };
-		25633F78135F494B0060C731 /* UIInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992E811AB2DDD00CE0FB0 /* UIInspector.m */; };
-		25633F7A135F494B0060C731 /* UIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992EA11AB2DDD00CE0FB0 /* UIProxy.m */; };
-		25633F7C135F494B0060C731 /* WaitUntilIdle.m in Sources */ = {isa = PBXBuildFile; fileRef = D62992EC11AB2DDD00CE0FB0 /* WaitUntilIdle.m */; };
-		25633F7E135F49700060C731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25633F7D135F49700060C731 /* UIKit.framework */; };
+		2562592713730EC90001623E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25633F7D135F49700060C731 /* UIKit.framework */; };
+		2562592813730EC90001623E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		2562592A13730EC90001623E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2562592913730EC90001623E /* CoreGraphics.framework */; };
+		2562593013730EC90001623E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2562592E13730EC90001623E /* InfoPlist.strings */; };
+		2562593313730EC90001623E /* Test.h in Resources */ = {isa = PBXBuildFile; fileRef = 2562593213730EC90001623E /* Test.h */; };
+		2562593513730EC90001623E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2562593413730EC90001623E /* Test.m */; };
+		2562593913730EE70001623E /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libFrank.a */; };
+		2562603C137345430001623E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B46F11B36D42005CAA34 /* NSObject+SBJSON.m */; };
+		2562603E137345430001623E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47111B36D42005CAA34 /* NSString+SBJSON.m */; };
+		25626040137345430001623E /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47311B36D42005CAA34 /* SBJSON.m */; };
+		25626042137345430001623E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47511B36D42005CAA34 /* SBJsonBase.m */; };
+		25626044137345430001623E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47711B36D42005CAA34 /* SBJsonParser.m */; };
+		25626046137345430001623E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47911B36D42005CAA34 /* SBJsonWriter.m */; };
+		25626048137345550001623E /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927211AB2D4C00CE0FB0 /* DDData.m */; };
+		2562604A137345550001623E /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927411AB2D4C00CE0FB0 /* DDNumber.m */; };
+		2562604C137345550001623E /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927611AB2D4C00CE0FB0 /* DDRange.m */; };
+		2562604E137345550001623E /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927811AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.m */; };
+		25626050137345550001623E /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927A11AB2D4C00CE0FB0 /* HTTPConnection.m */; };
+		25626052137345550001623E /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927C11AB2D4C00CE0FB0 /* HTTPResponse.m */; };
+		25626054137345550001623E /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927E11AB2D4C00CE0FB0 /* HTTPServer.m */; };
+		25626056137345550001623E /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D629928011AB2D4C00CE0FB0 /* MyHTTPConnection.m */; };
+		25626058137345550001623E /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D629926A11AB2D1F00CE0FB0 /* AsyncSocket.m */; };
+		2562605A1373456D0001623E /* AccessibilityCheckCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5AC9713685F4400FA0407 /* AccessibilityCheckCommand.m */; };
+		2562605B1373456D0001623E /* OrientationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD76812BADFE100E10B8C /* OrientationCommand.m */; };
+		2562605D1373456D0001623E /* AppCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD76A12BADFE100E10B8C /* AppCommand.m */; };
+		2562605F1373456D0001623E /* InspectCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD75E12BADFA400E10B8C /* InspectCommand.m */; };
+		256260621373456D0001623E /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D79B5C11D7FB8B003E0E60 /* Operation.m */; };
+		256260641373456D0001623E /* DumpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA211C883AA0081C5A5 /* DumpCommand.m */; };
+		256260661373456D0001623E /* FrankCommandRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA411C883AA0081C5A5 /* FrankCommandRoute.m */; };
+		256260681373456D0001623E /* FrankServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA611C883AA0081C5A5 /* FrankServer.m */; };
+		2562606A1373456D0001623E /* MapOperationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA811C883AA0081C5A5 /* MapOperationCommand.m */; };
+		2562606C1373456D0001623E /* RequestRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CAC11C883AA0081C5A5 /* RequestRouter.m */; };
+		2562606E1373456D0001623E /* RoutingHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CAE11C883AA0081C5A5 /* RoutingHTTPConnection.m */; };
+		256260701373456D0001623E /* StaticResourcesRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CB011C883AA0081C5A5 /* StaticResourcesRoute.m */; };
+		256260721373456D0001623E /* UISpecCommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CB211C883AA0081C5A5 /* UISpecCommandReceiver.m */; };
 		25B5AC9813685F4400FA0407 /* AccessibilityCheckCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5AC9613685F4400FA0407 /* AccessibilityCheckCommand.h */; };
-		25B5AC9913685F4400FA0407 /* AccessibilityCheckCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5AC9713685F4400FA0407 /* AccessibilityCheckCommand.m */; };
-		4C1DD76012BADFA400E10B8C /* InspectCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD75E12BADFA400E10B8C /* InspectCommand.m */; };
 		4C1DD76112BADFA400E10B8C /* InspectCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1DD75F12BADFA400E10B8C /* InspectCommand.h */; };
-		4C1DD76C12BADFE100E10B8C /* OrientationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD76812BADFE100E10B8C /* OrientationCommand.m */; };
 		4C1DD76D12BADFE100E10B8C /* OrientationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1DD76912BADFE100E10B8C /* OrientationCommand.h */; };
-		4C1DD76E12BADFE100E10B8C /* AppCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DD76A12BADFE100E10B8C /* AppCommand.m */; };
 		4C1DD76F12BADFE100E10B8C /* AppCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1DD76B12BADFE100E10B8C /* AppCommand.h */; };
 		AA747D9F0F9514B9006C5449 /* Frank_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Frank_Prefix.pch */; };
-		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		D629926B11AB2D1F00CE0FB0 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D629926911AB2D1F00CE0FB0 /* AsyncSocket.h */; };
-		D629926C11AB2D1F00CE0FB0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D629926A11AB2D1F00CE0FB0 /* AsyncSocket.m */; };
 		D629928111AB2D4C00CE0FB0 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927111AB2D4C00CE0FB0 /* DDData.h */; };
-		D629928211AB2D4C00CE0FB0 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927211AB2D4C00CE0FB0 /* DDData.m */; };
 		D629928311AB2D4C00CE0FB0 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927311AB2D4C00CE0FB0 /* DDNumber.h */; };
-		D629928411AB2D4C00CE0FB0 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927411AB2D4C00CE0FB0 /* DDNumber.m */; };
 		D629928511AB2D4C00CE0FB0 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927511AB2D4C00CE0FB0 /* DDRange.h */; };
-		D629928611AB2D4C00CE0FB0 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927611AB2D4C00CE0FB0 /* DDRange.m */; };
 		D629928711AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927711AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.h */; };
-		D629928811AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927811AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.m */; };
 		D629928911AB2D4C00CE0FB0 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927911AB2D4C00CE0FB0 /* HTTPConnection.h */; };
-		D629928A11AB2D4C00CE0FB0 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927A11AB2D4C00CE0FB0 /* HTTPConnection.m */; };
 		D629928B11AB2D4C00CE0FB0 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927B11AB2D4C00CE0FB0 /* HTTPResponse.h */; };
-		D629928C11AB2D4C00CE0FB0 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927C11AB2D4C00CE0FB0 /* HTTPResponse.m */; };
 		D629928D11AB2D4C00CE0FB0 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927D11AB2D4C00CE0FB0 /* HTTPServer.h */; };
-		D629928E11AB2D4C00CE0FB0 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D629927E11AB2D4C00CE0FB0 /* HTTPServer.m */; };
 		D629928F11AB2D4C00CE0FB0 /* MyHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D629927F11AB2D4C00CE0FB0 /* MyHTTPConnection.h */; };
-		D629929011AB2D4C00CE0FB0 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D629928011AB2D4C00CE0FB0 /* MyHTTPConnection.m */; };
 		D62992ED11AB2DDD00CE0FB0 /* UIQuerySearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992AD11AB2DDD00CE0FB0 /* UIQuerySearchBar.h */; };
 		D62992EF11AB2DDD00CE0FB0 /* UIQuerySegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992AF11AB2DDD00CE0FB0 /* UIQuerySegmentedControl.h */; };
 		D62992F111AB2DDD00CE0FB0 /* UIQueryTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992B111AB2DDD00CE0FB0 /* UIQueryTabBar.h */; };
@@ -99,52 +87,32 @@
 		D629932411AB2DDD00CE0FB0 /* UIInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992E711AB2DDD00CE0FB0 /* UIInspector.h */; };
 		D629932611AB2DDD00CE0FB0 /* UIProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992E911AB2DDD00CE0FB0 /* UIProxy.h */; };
 		D629932811AB2DDD00CE0FB0 /* WaitUntilIdle.h in Headers */ = {isa = PBXBuildFile; fileRef = D62992EB11AB2DDD00CE0FB0 /* WaitUntilIdle.h */; };
-		D629938011AB2DF300CE0FB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D629937F11AB2DF300CE0FB0 /* UIKit.framework */; };
 		D6D05CB311C883AA0081C5A5 /* DumpCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CA111C883AA0081C5A5 /* DumpCommand.h */; };
-		D6D05CB411C883AA0081C5A5 /* DumpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA211C883AA0081C5A5 /* DumpCommand.m */; };
 		D6D05CB511C883AA0081C5A5 /* FrankCommandRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CA311C883AA0081C5A5 /* FrankCommandRoute.h */; };
-		D6D05CB611C883AA0081C5A5 /* FrankCommandRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA411C883AA0081C5A5 /* FrankCommandRoute.m */; };
 		D6D05CB711C883AA0081C5A5 /* FrankServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CA511C883AA0081C5A5 /* FrankServer.h */; };
-		D6D05CB811C883AA0081C5A5 /* FrankServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA611C883AA0081C5A5 /* FrankServer.m */; };
 		D6D05CB911C883AA0081C5A5 /* MapOperationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CA711C883AA0081C5A5 /* MapOperationCommand.h */; };
-		D6D05CBA11C883AA0081C5A5 /* MapOperationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CA811C883AA0081C5A5 /* MapOperationCommand.m */; };
 		D6D05CBD11C883AA0081C5A5 /* RequestRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CAB11C883AA0081C5A5 /* RequestRouter.h */; };
-		D6D05CBE11C883AA0081C5A5 /* RequestRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CAC11C883AA0081C5A5 /* RequestRouter.m */; };
 		D6D05CBF11C883AA0081C5A5 /* RoutingHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CAD11C883AA0081C5A5 /* RoutingHTTPConnection.h */; };
-		D6D05CC011C883AA0081C5A5 /* RoutingHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CAE11C883AA0081C5A5 /* RoutingHTTPConnection.m */; };
 		D6D05CC111C883AA0081C5A5 /* StaticResourcesRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CAF11C883AA0081C5A5 /* StaticResourcesRoute.h */; };
-		D6D05CC211C883AA0081C5A5 /* StaticResourcesRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CB011C883AA0081C5A5 /* StaticResourcesRoute.m */; };
 		D6D05CC311C883AA0081C5A5 /* UISpecCommandReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D05CB111C883AA0081C5A5 /* UISpecCommandReceiver.h */; };
-		D6D05CC411C883AA0081C5A5 /* UISpecCommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D05CB211C883AA0081C5A5 /* UISpecCommandReceiver.m */; };
 		D6D79B5D11D7FB8B003E0E60 /* Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D79B5B11D7FB8B003E0E60 /* Operation.h */; };
-		D6D79B5E11D7FB8B003E0E60 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D79B5C11D7FB8B003E0E60 /* Operation.m */; };
 		D6E7B47A11B36D42005CAA34 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B46D11B36D42005CAA34 /* JSON.h */; };
 		D6E7B47B11B36D42005CAA34 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B46E11B36D42005CAA34 /* NSObject+SBJSON.h */; };
-		D6E7B47C11B36D42005CAA34 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B46F11B36D42005CAA34 /* NSObject+SBJSON.m */; };
 		D6E7B47D11B36D42005CAA34 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B47011B36D42005CAA34 /* NSString+SBJSON.h */; };
-		D6E7B47E11B36D42005CAA34 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47111B36D42005CAA34 /* NSString+SBJSON.m */; };
 		D6E7B47F11B36D42005CAA34 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B47211B36D42005CAA34 /* SBJSON.h */; };
-		D6E7B48011B36D42005CAA34 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47311B36D42005CAA34 /* SBJSON.m */; };
 		D6E7B48111B36D42005CAA34 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B47411B36D42005CAA34 /* SBJsonBase.h */; };
-		D6E7B48211B36D42005CAA34 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47511B36D42005CAA34 /* SBJsonBase.m */; };
 		D6E7B48311B36D42005CAA34 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B47611B36D42005CAA34 /* SBJsonParser.h */; };
-		D6E7B48411B36D42005CAA34 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47711B36D42005CAA34 /* SBJsonParser.m */; };
 		D6E7B48511B36D42005CAA34 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B47811B36D42005CAA34 /* SBJsonWriter.h */; };
-		D6E7B48611B36D42005CAA34 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7B47911B36D42005CAA34 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		25B5AC8D13685E3100FA0407 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25633EF9135F48670060C731;
-			remoteInfo = UISpec;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		25633EFA135F48670060C731 /* libUISpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2562592613730EC90001623E /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2562592913730EC90001623E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2562592D13730EC90001623E /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		2562592F13730EC90001623E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2562593113730EC90001623E /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		2562593213730EC90001623E /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		2562593413730EC90001623E /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		25633EFE135F48670060C731 /* UISpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpec-Prefix.pch"; sourceTree = "<group>"; };
 		25633F7D135F49700060C731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25B5AC9613685F4400FA0407 /* AccessibilityCheckCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessibilityCheckCommand.h; path = src/AccessibilityCheckCommand.h; sourceTree = "<group>"; };
@@ -276,12 +244,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25633EF7135F48670060C731 /* Frameworks */ = {
+		2562592213730EC90001623E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25633F7E135F49700060C731 /* UIKit.framework in Frameworks */,
-				25633EFB135F48670060C731 /* Foundation.framework in Frameworks */,
+				2562593913730EE70001623E /* libFrank.a in Frameworks */,
+				2562592713730EC90001623E /* UIKit.framework in Frameworks */,
+				2562592813730EC90001623E /* Foundation.framework in Frameworks */,
+				2562592A13730EC90001623E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,9 +259,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25633F3F135F48E40060C731 /* libUISpec.a in Frameworks */,
-				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				D629938011AB2DF300CE0FB0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +268,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libFrank.a */,
+				2562592613730EC90001623E /* Test.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,12 +276,14 @@
 		0867D691FE84028FC02AAC07 /* Frank */ = {
 			isa = PBXGroup;
 			children = (
+				D2AAC07E0554694100DB518D /* libFrank.a */,
 				D6782D8511BC423900FD0CE1 /* frank_static_resources.bundle */,
 				D62AEFA911B4897B00B824F3 /* cucumber */,
 				D629926711AB2CF700CE0FB0 /* 3rd Party */,
 				08FB77AEFE84172EC02AAC07 /* src */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				25633EFC135F48670060C731 /* UISpec */,
+				2562592B13730EC90001623E /* Test */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -325,9 +294,9 @@
 			isa = PBXGroup;
 			children = (
 				25633F7D135F49700060C731 /* UIKit.framework */,
-				25633EFA135F48670060C731 /* libUISpec.a */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				D629937F11AB2DF300CE0FB0 /* UIKit.framework */,
+				2562592913730EC90001623E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,6 +332,26 @@
 				D6D05CB211C883AA0081C5A5 /* UISpecCommandReceiver.m */,
 			);
 			name = src;
+			sourceTree = "<group>";
+		};
+		2562592B13730EC90001623E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2562593213730EC90001623E /* Test.h */,
+				2562593413730EC90001623E /* Test.m */,
+				2562592C13730EC90001623E /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		2562592C13730EC90001623E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2562592D13730EC90001623E /* Test-Info.plist */,
+				2562592E13730EC90001623E /* InfoPlist.strings */,
+				2562593113730EC90001623E /* Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		25633EFC135F48670060C731 /* UISpec */ = {
@@ -551,13 +540,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25633EF8135F48670060C731 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -629,22 +611,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25633EF9135F48670060C731 /* UISpec */ = {
+		2562592513730EC90001623E /* Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25633EFF135F48670060C731 /* Build configuration list for PBXNativeTarget "UISpec" */;
+			buildConfigurationList = 2562593613730EC90001623E /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
-				25633EF6135F48670060C731 /* Sources */,
-				25633EF7135F48670060C731 /* Frameworks */,
-				25633EF8135F48670060C731 /* Headers */,
+				2562592113730EC90001623E /* Sources */,
+				2562592213730EC90001623E /* Frameworks */,
+				2562592313730EC90001623E /* Resources */,
+				2562592413730EC90001623E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UISpec;
-			productName = UISpec;
-			productReference = 25633EFA135F48670060C731 /* libUISpec.a */;
-			productType = "com.apple.product-type.library.static";
+			name = Test;
+			productName = Test;
+			productReference = 2562592613730EC90001623E /* Test.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 		D2AAC07D0554694100DB518D /* Frank */ = {
 			isa = PBXNativeTarget;
@@ -658,7 +641,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				25B5AC8E13685E3100FA0407 /* PBXTargetDependency */,
 			);
 			name = Frank;
 			productName = Frank;
@@ -679,6 +661,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Frank */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -686,12 +669,21 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* Frank */,
-				25633EF9135F48670060C731 /* UISpec */,
+				2562592513730EC90001623E /* Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2562592313730EC90001623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2562593013730EC90001623E /* InfoPlist.strings in Resources */,
+				2562593313730EC90001623E /* Test.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6782DD711BC67FE00FD0CE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -701,41 +693,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2562592413730EC90001623E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		25633EF6135F48670060C731 /* Sources */ = {
+		2562592113730EC90001623E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25633F41135F494B0060C731 /* UIQuerySearchBar.m in Sources */,
-				25633F43135F494B0060C731 /* UIQuerySegmentedControl.m in Sources */,
-				25633F45135F494B0060C731 /* UIQueryTabBar.m in Sources */,
-				25633F47135F494B0060C731 /* UIQueryTableView.m in Sources */,
-				25633F49135F494B0060C731 /* UIQueryTableViewCell.m in Sources */,
-				25633F4B135F494B0060C731 /* UIQueryWebView.m in Sources */,
-				25633F4D135F494B0060C731 /* Recordable.m in Sources */,
-				25633F4F135F494B0060C731 /* UIChildren.m in Sources */,
-				25633F51135F494B0060C731 /* UIConsoleLog.m in Sources */,
-				25633F53135F494B0060C731 /* UIDescendants.m in Sources */,
-				25633F55135F494B0060C731 /* UIExpectation.m in Sources */,
-				25633F57135F494B0060C731 /* UIFilter.m in Sources */,
-				25633F5A135F494B0060C731 /* UIMatcher.m in Sources */,
-				25633F5C135F494B0060C731 /* UIParents.m in Sources */,
-				25633F5E135F494B0060C731 /* UIQuery.m in Sources */,
-				25633F60135F494B0060C731 /* UIQueryAll.m in Sources */,
-				25633F62135F494B0060C731 /* UIQueryExpectation.m in Sources */,
-				25633F64135F494B0060C731 /* UIRedoer.m in Sources */,
-				25633F66135F494B0060C731 /* UISwizzle.m in Sources */,
-				25633F68135F494B0060C731 /* UITraversal.m in Sources */,
-				25633F6A135F494B0060C731 /* ViewFilterSwizzler.m in Sources */,
-				25633F6C135F494B0060C731 /* UISpec.m in Sources */,
-				25633F6E135F494B0060C731 /* CallCache.m in Sources */,
-				25633F70135F494B0060C731 /* NSNumberCreator.m in Sources */,
-				25633F72135F494B0060C731 /* ReturnCacher.m in Sources */,
-				25633F74135F494B0060C731 /* UIBug.m in Sources */,
-				25633F76135F494B0060C731 /* UIConsole.m in Sources */,
-				25633F78135F494B0060C731 /* UIInspector.m in Sources */,
-				25633F7A135F494B0060C731 /* UIProxy.m in Sources */,
-				25633F7C135F494B0060C731 /* WaitUntilIdle.m in Sources */,
+				2562593513730EC90001623E /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,64 +722,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D629926C11AB2D1F00CE0FB0 /* AsyncSocket.m in Sources */,
-				D629928211AB2D4C00CE0FB0 /* DDData.m in Sources */,
-				D629928411AB2D4C00CE0FB0 /* DDNumber.m in Sources */,
-				D629928611AB2D4C00CE0FB0 /* DDRange.m in Sources */,
-				D629928811AB2D4C00CE0FB0 /* HTTPAuthenticationRequest.m in Sources */,
-				D629928A11AB2D4C00CE0FB0 /* HTTPConnection.m in Sources */,
-				D629928C11AB2D4C00CE0FB0 /* HTTPResponse.m in Sources */,
-				D629928E11AB2D4C00CE0FB0 /* HTTPServer.m in Sources */,
-				D629929011AB2D4C00CE0FB0 /* MyHTTPConnection.m in Sources */,
-				D6E7B47C11B36D42005CAA34 /* NSObject+SBJSON.m in Sources */,
-				D6E7B47E11B36D42005CAA34 /* NSString+SBJSON.m in Sources */,
-				D6E7B48011B36D42005CAA34 /* SBJSON.m in Sources */,
-				D6E7B48211B36D42005CAA34 /* SBJsonBase.m in Sources */,
-				D6E7B48411B36D42005CAA34 /* SBJsonParser.m in Sources */,
-				D6E7B48611B36D42005CAA34 /* SBJsonWriter.m in Sources */,
-				D6D05CB411C883AA0081C5A5 /* DumpCommand.m in Sources */,
-				D6D05CB611C883AA0081C5A5 /* FrankCommandRoute.m in Sources */,
-				D6D05CB811C883AA0081C5A5 /* FrankServer.m in Sources */,
-				D6D05CBA11C883AA0081C5A5 /* MapOperationCommand.m in Sources */,
-				D6D05CBE11C883AA0081C5A5 /* RequestRouter.m in Sources */,
-				D6D05CC011C883AA0081C5A5 /* RoutingHTTPConnection.m in Sources */,
-				D6D05CC211C883AA0081C5A5 /* StaticResourcesRoute.m in Sources */,
-				D6D05CC411C883AA0081C5A5 /* UISpecCommandReceiver.m in Sources */,
-				D6D79B5E11D7FB8B003E0E60 /* Operation.m in Sources */,
-				4C1DD76012BADFA400E10B8C /* InspectCommand.m in Sources */,
-				4C1DD76C12BADFE100E10B8C /* OrientationCommand.m in Sources */,
-				4C1DD76E12BADFE100E10B8C /* AppCommand.m in Sources */,
-				25B5AC9913685F4400FA0407 /* AccessibilityCheckCommand.m in Sources */,
+				2562605A1373456D0001623E /* AccessibilityCheckCommand.m in Sources */,
+				2562605B1373456D0001623E /* OrientationCommand.m in Sources */,
+				2562605D1373456D0001623E /* AppCommand.m in Sources */,
+				2562605F1373456D0001623E /* InspectCommand.m in Sources */,
+				256260621373456D0001623E /* Operation.m in Sources */,
+				256260641373456D0001623E /* DumpCommand.m in Sources */,
+				256260661373456D0001623E /* FrankCommandRoute.m in Sources */,
+				256260681373456D0001623E /* FrankServer.m in Sources */,
+				2562606A1373456D0001623E /* MapOperationCommand.m in Sources */,
+				2562606C1373456D0001623E /* RequestRouter.m in Sources */,
+				2562606E1373456D0001623E /* RoutingHTTPConnection.m in Sources */,
+				256260701373456D0001623E /* StaticResourcesRoute.m in Sources */,
+				256260721373456D0001623E /* UISpecCommandReceiver.m in Sources */,
+				25626048137345550001623E /* DDData.m in Sources */,
+				2562604A137345550001623E /* DDNumber.m in Sources */,
+				2562604C137345550001623E /* DDRange.m in Sources */,
+				2562604E137345550001623E /* HTTPAuthenticationRequest.m in Sources */,
+				25626050137345550001623E /* HTTPConnection.m in Sources */,
+				25626052137345550001623E /* HTTPResponse.m in Sources */,
+				25626054137345550001623E /* HTTPServer.m in Sources */,
+				25626056137345550001623E /* MyHTTPConnection.m in Sources */,
+				25626058137345550001623E /* AsyncSocket.m in Sources */,
+				2562603C137345430001623E /* NSObject+SBJSON.m in Sources */,
+				2562603E137345430001623E /* NSString+SBJSON.m in Sources */,
+				25626040137345430001623E /* SBJSON.m in Sources */,
+				25626042137345430001623E /* SBJsonBase.m in Sources */,
+				25626044137345430001623E /* SBJsonParser.m in Sources */,
+				25626046137345430001623E /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		25B5AC8E13685E3100FA0407 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25633EF9135F48670060C731 /* UISpec */;
-			targetProxy = 25B5AC8D13685E3100FA0407 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		2562592E13730EC90001623E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2562592F13730EC90001623E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/Frank.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Frank_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
+				OBJROOT = "$(SRCROOT)/Build";
 				PRODUCT_NAME = Frank;
 				SDKROOT = iphoneos;
+				SYMROOT = "$(SOURCE_ROOT)/Build/Products";
 			};
 			name = Debug;
 		};
@@ -808,14 +788,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/Frank.dst;
-				GCC_MODEL_TUNING = G5;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Frank_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
+				OBJROOT = "$(SRCROOT)/Build";
 				PRODUCT_NAME = Frank;
 				SDKROOT = iphoneos;
+				SYMROOT = "$(SOURCE_ROOT)/Build/Products";
 			};
 			name = Release;
 		};
@@ -823,7 +805,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -837,7 +819,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -846,37 +828,50 @@
 			};
 			name = Release;
 		};
-		25633F00135F48670060C731 /* Debug */ = {
+		2562593713730EC90001623E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/UISpec.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Frank_Prefix.pch;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Test/Test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		25633F01135F48670060C731 /* Release */ = {
+		2562593813730EC90001623E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/UISpec.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Frank_Prefix.pch;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Test/Test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -901,11 +896,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25633EFF135F48670060C731 /* Build configuration list for PBXNativeTarget "UISpec" */ = {
+		2562593613730EC90001623E /* Build configuration list for PBXNativeTarget "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25633F00135F48670060C731 /* Debug */,
-				25633F01135F48670060C731 /* Release */,
+				2562593713730EC90001623E /* Debug */,
+				2562593813730EC90001623E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25633EF9135F48670060C731"
                BuildableName = "libUISpec.a"
-               BlueprintName = "UISpec"
+               BlueprintName = "Frank-UISpec"
                ReferencedContainer = "container:Frank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
